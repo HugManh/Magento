@@ -1,0 +1,1 @@
+/var/www/html/magento/vendor/temando/module-shipping-m2/view/adminhtml/web/js/grid/paging/sizes.js

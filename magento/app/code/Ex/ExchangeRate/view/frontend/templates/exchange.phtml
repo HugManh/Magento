@@ -1,0 +1,14 @@
+<?php
+      $xml = $this->getExchangeRate();
+      echo $xml->DateTime;
+      echo "<br>";
+      foreach ($xml->Exrate as $detail) {
+        //echo $detail['CurrencyCode'] + "  --  " + $detail['CurrencyName'] + "  --  " + $detail['Buy'] + "  --  " + $detail['Transfer'] + "  --  " + $detail['Sell'];
+        echo $detail['CurrencyCode'];
+        echo "  --  ";
+        echo $detail['CurrencyName'];
+        echo "  --  ";
+        echo $detail['Buy'];
+        echo "<br>";
+      }
+?>
